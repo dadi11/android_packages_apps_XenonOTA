@@ -17,22 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App -->
   <string name="app_name">Xenon Güncellemeleri</string>
-  <string name="app_title">XenonHD Güncellemeleri</string>
-  <!-- Categories -->
-  <string name="ota_category">Güncelleme bölümü</string>
-  <string name="links_category">İndirme bölümü</string>
-  <!-- Dialog -->
+    <!-- Categories -->
+    <!-- Dialog -->
   <string name="dialog_message">Güncellemeler kontrol ediliyor, lütfen bekleyin…</string>
   <string name="reboot_recovery">Kurtarma modunda başlat</string>
   <!-- ROM info -->
-  <string name="latest_version">Güncelleme mevcut!\nYeni sürüm: %1$s</string>
-  <string name="unknown">Bilinmeyen</string>
-  <string name="system_uptodate">Sisteminiz güncel</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Güncellemeleri kontrol et</string>
-  <string name="last_check_summary">Son kontrol: %1$s</string>
-  <string name="last_check_never">Hiçbir Zaman</string>
-  <string name="check_update_failed">Güncellemeleri kontrol edilmiyor. İnternet bağlantınızı ve cihazınızın resmi olarak desteklenip desteklenmediğini kontrol edin</string>
+    <string name="check_update_failed">Güncellemeleri kontrol edilmiyor. İnternet bağlantınızı ve cihazınızın resmi olarak desteklenip desteklenmediğini kontrol edin</string>
   <string name="update_available">Güncelleme mevcut!</string>
   <string name="no_update_available">Kullanılabilir güncelleme yok</string>
   <!-- Notification -->
@@ -41,8 +33,7 @@
   <string name="xenonota_channel">XenonOTA bildirimleri</string>
   <string name="xenonota_channel_description">Yeni XenonHD güncellemeleri ile ilgili bildirimler</string>
   <!-- Toast -->
-  <string name="toast_message">Tarayıcı yüklü değil Tarayıcı yükleyici uygulamasını kontrol et</string>
-  <!-- Update interval -->
+    <!-- Update interval -->
   <string name="interval_title">Güncellemeleri otomatik olarak kontrol et</string>
   <string name="autoupdate_enabled">Otomatik güncelleme kontrolu etkin</string>
   <string name="autoupdate_disabled">Otomatik güncelleme kontrolu devre dışı</string>
@@ -51,14 +42,5 @@
   <string name="twelve_hours">12 saatte bir</string>
   <string name="twentyfour_hours">24 saatte bir</string>
   <!-- Links -->
-  <string name="links_rom_title">ROM</string>
-  <string name="links_rom_summary">En yeni yapıyı indir</string>
-  <string name="links_md5_title">MD5</string>
-  <string name="links_md5_summary">En yeni yapının sağlama toplamını indir</string>
-  <string name="links_gapps_title">Gapps</string>
-  <string name="links_gapps_summary">Open Gapps İndir</string>
-  <string name="links_changelog_title">Değişiklikler</string>
-  <string name="links_changelog_summary">En son değişiklik günlüğünü görüntüle</string>
-  <string name="links_donate_title">Destek</string>
-  <string name="links_donate_summary">Cihazına destek olan geliştiriciye katkıda bulun</string>
+    <string name="links_changelog_title">Değişiklikler</string>
 </resources>

@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">التحقق من وجود تحديثات، الرجاء الإنتظار.</string>
   <!-- ROM info -->
-  <string name="unknown">مجهول</string>
-  <string name="system_uptodate">نظامك محدث</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">تحقق من وجود تحديثات</string>
-  <string name="last_check_summary">آخر فحص: %1$s</string>
-  <string name="last_check_never">أبداً</string>
-  <string name="no_update_available">لا توجد تحديثات متوفرة</string>
+    <string name="no_update_available">لا توجد تحديثات متوفرة</string>
   <!-- Notification -->
   <string name="notification_title">تحديثات XenonHD</string>
   <string name="notification_message">يتوفر إصدار جديد!</string>

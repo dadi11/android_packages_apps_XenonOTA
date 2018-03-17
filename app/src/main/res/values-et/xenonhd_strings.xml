@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Uuenduste kontrollimine, palun oodake…</string>
   <!-- ROM info -->
-  <string name="unknown">Tundmatu</string>
-  <string name="system_uptodate">Teie süsteem on kõige uuemal versioonil</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Kontrolli uuendusi</string>
-  <string name="last_check_summary">Viimati kontrollitud: %1$s</string>
-  <string name="last_check_never">Mitte kunagi</string>
-  <string name="no_update_available">Uuendusi ei leitud</string>
+    <string name="no_update_available">Uuendusi ei leitud</string>
   <!-- Notification -->
   <string name="notification_title">XenonHD Uuendused</string>
   <string name="notification_message">Uuem versioon on saadaval!</string>

@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Перевірка наявності оновлень, зачекайте...</string>
   <!-- ROM info -->
-  <string name="unknown">Невідомо</string>
-  <string name="system_uptodate">Ваша система є актуальна</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Перевірка оновлень</string>
-  <string name="last_check_summary">Остання перевірка: %1$s</string>
-  <string name="last_check_never">Ніколи</string>
-  <string name="no_update_available">Оновлень не знайдено</string>
+    <string name="no_update_available">Оновлень не знайдено</string>
   <!-- Notification -->
   <string name="notification_title">Оновлення XenonHD</string>
   <string name="notification_message">Нова версія доступна!</string>

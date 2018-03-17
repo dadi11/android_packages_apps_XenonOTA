@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Provjera ažuriranja molim pričekajte…</string>
   <!-- ROM info -->
-  <string name="unknown">Nepoznato</string>
-  <string name="system_uptodate">Vaš sustav je ažuran</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Provjeri ažuriranja</string>
-  <string name="last_check_summary">Posljednja provjera: %1$s</string>
-  <string name="last_check_never">Nikada</string>
-  <string name="no_update_available">Nema dostupnih ažuriranja</string>
+    <string name="no_update_available">Nema dostupnih ažuriranja</string>
   <!-- Notification -->
   <string name="notification_title">XenonHD ažuriranja</string>
   <string name="notification_message">Nova verzija %s je dostupna!</string>

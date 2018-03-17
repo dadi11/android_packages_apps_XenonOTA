@@ -16,56 +16,114 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App -->
     <string name="app_name">XenonOTA</string>
-    <string name="app_title">XenonHD updates</string>
 
-    <!-- Categories -->
-    <string name="ota_category">Update section</string>
-    <string name="links_category">Download section</string>
-
-    <!-- Dialog -->
-    <string name="dialog_message">Checking for updates, please wait…</string>
-    <string name="reboot_recovery">Reboot to recovery</string>
-
-    <!-- ROM info -->
-    <string name="latest_version">Update available!\nLatest version: %1$s</string>
-    <string name="unknown">Unknown</string>
-    <string name="system_uptodate">Your system is up to date</string>
-
-    <!-- Check update -->
+    <!-- ROM -->
+    <string name="title_rom">ROM</string>
+    <string name="download">Download</string>
+    <string name="flash">Flash</string>
+    <string name="my_device">Device</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="current_version">Current version:</string>
     <string name="check_update_title">Check for updates</string>
-    <string name="last_check_summary">Last checked: %1$s</string>
-    <string name="last_check_never">Never</string>
-    <string name="check_update_failed">Can\'t check for updates. Check your internet connection and whether your device is officially supported</string>
     <string name="update_available">Update available!</string>
+    <string name="update_available1">Update available! - %s</string>
     <string name="no_update_available">No update available</string>
 
-    <!-- Notification -->
-    <string name="notification_title">XenonHD Update</string>
-    <string name="notification_message">A new version is available!</string>
-    <string name="xenonota_channel">XenonOTA notifications</string>
-    <string name="xenonota_channel_description">Notifications about new XenonHD updates</string>
-
-    <!-- Toast -->
-    <string name="toast_message">There\'s no browser installed\nCheck out BrowserInstaller app</string>
-
-    <!-- Update interval -->
-    <string name="interval_title">Automatically check for updates</string>
-    <string name="autoupdate_enabled">Automatic check for updates is enabled</string>
-    <string name="autoupdate_disabled">Automatic check for updates is disabled</string>
+    <!-- GApps -->
+    <string name="title_gapps">GApps</string>
+    <string name="loading">Loading…</string>
+    <string name="gapps_ok">GApps has been installed!</string>
+    <string name="gapps_warning">GApps has not been installed!</string>
+    <string name="latest_release">Latest release for</string>
+     
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+    <string name="interval_title">Check for updates automatically</string>
     <string name="disabled">Disabled</string>
     <string name="hour">Every hour</string>
     <string name="twelve_hours">Every 12 hours</string>
     <string name="twentyfour_hours">Every 24 hours</string>
+    <string name="onboot">On boot</string>
+    <string name="preferred_type">Preferred update type</string>
+    <string name="official">Official builds only</string>
+    <string name="experimental">Latest Experimental &amp; Official builds</string>
+    <string name="gapps_variant">GApps variant</string>
+    <string name="gapps_aroma" translatable="false">aroma</string>
+    <string name="gapps_super" translatable="false">super</string>
+    <string name="gapps_stock" translatable="false">stock</string>
+    <string name="gapps_full" translatable="false">full</string>
+    <string name="gapps_mini" translatable="false">mini</string>
+    <string name="gapps_micro" translatable="false">micro</string>
+    <string name="gapps_nano" translatable="false">nano</string>
+    <string name="gapps_pico" translatable="false">pico</string>
+    <string name="gapps_tvstock" translatable="false">tvstock</string>
+    
+    <!-- Menu -->
+    <string name="reboot_recovery">Reboot to recovery</string>
+    <string name="magisk_download">Download Magisk</string>
+    <string name="clear_downloads">Clear downloads</string>
+    <string name="choose_gapps_zip">Choose existing GApps zip file</string>
+    <string name="gapps_set">Gapps path set to \"%s\"</string>
 
-    <!-- Links -->
-    <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">Download the latest build</string>
-    <string name="links_md5_title">MD5</string>
-    <string name="links_md5_summary">Download checksum of the latest build</string>
-    <string name="links_gapps_title">Gapps</string>
-    <string name="links_gapps_summary">Download Open Gapps</string>
-    <string name="links_changelog_title">Changelog</string>
-    <string name="links_changelog_summary">View the latest changelog</string>
-    <string name="links_donate_title">Support</string>
-    <string name="links_donate_summary">Donate to your device maintainer</string>
+    <!-- Dialogs -->
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="confirm">Confirm</string>
+    <string name="downloading">Downloading…</string>
+    <string name="failed">Failed</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused</string>
+    <string name="resume">Resume</string>
+    <string name="retry">Retry</string>
+    <string name="reboot_warning">Are you sure you want to reboot to recovery?</string>
+    <string name="dialog_message">Checking for updates, please wait…</string>
+    <string name="clear_downloads_warning_ota">This will remove all downloaded OTA files</string>
+    <string name="clear_downloads_warning_gapps">This will remove all downloaded GApps packages</string>
+    <string name="download_confirm_1">Please confirm these informations before clicking Download button:\n\nAndroid version\t\t:\t</string>
+    <string name="download_confirm_2">\nCPU platform\t\t\t:\t</string>
+    <string name="download_confirm_3">\nPackage variant\t\t:\t</string>
+    <string name="open_in_browser">Open in browser</string>
+
+    <!-- Toasts -->
+    <string name="autoupdate_enabled">Automatic check for updates is enabled</string>
+    <string name="autoupdate_disabled">Automatic check for updates is disabled</string>
+    <string name="check_update_failed">Can\'t check for updates. Enable internet connection</string>
+    <string name="toast_message">There\'s no browser installed\nCheck out BrowserInstaller app</string>
+    <string name="permission_not_enabled">Please allow XenonOTA to write to external storage</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">XenonHD Update</string>
+    <string name="notification_message">A new version is available!</string>
+    <string name="xenonota_channel">XenonOTA Notifications</string>
+    <string name="xenonota_channel_description">Notifications about new XenonHD updates</string>
+    <string name="notification_cancelled">Download cancelled</string>
+    <string name="notification_completed">Download completed</string>
+    <string name="notification_paused">Download paused</string>
+    <string name="notification_error">Unknown error</string>
+	
+    <!-- Download -->
+    <string name="download_complete_title">Download completed</string>
+    <string name="download_complete_msg">Update has been successfully downloaded. Click "Flash" to reboot and install in recovery</string>
+    <string name="download_interrupted_title">Download interrupted</string>
+    <string name="download_interrupted_msg">Download has been interrupted due to unknown reason</string>
+    <string name="download_cancelled_title">Download cancelled</string>
+    <string name="download_cancelled_msg">Download has been cancelled by the user</string>
+    <string name="magisk_error">Can\'t obtain the latest Magisk link…</string>
+    <string name="magisk_download_completed">Magisk downloaded sucessfully. You can flash it with OTA or manually</string>
+    <string name="magisk_check">Checking for latest Magisk version</string>
+	
+    <string name="download_eta_sec" translatable="false">%1$ds</string>
+    <string name="download_eta_min" translatable="false">%1$dm %2$ds</string>
+    <string name="download_eta_hrs" translatable="false">%1$dh %2$dm %3$ds</string>
+    <string name="download_speed_bytes" translatable="false">%1$d B/s</string>
+    <string name="download_speed_kb" translatable="false">%1$s KB/s</string>
+    <string name="download_speed_mb" translatable="false">%1$s MB/s</string>
+    <string name="percent_progress" translatable="false">%1$d%%</string>
+
+    <!-- Flash -->
+    <string name="flash_magisk">Flash Magisk</string>
+    <string name="flash_gapps">Flash GApps</string>
+    <string name="flash_message">Are you sure you want to reboot and install downloaded zip?</string>
+    <string name="verifying_package">Verifying package…</string>
+    <string name="verification_failed">Verification failed</string>
 </resources>

@@ -1,5 +1,5 @@
-/*
- * Copyright (C) 2017 Team Horizon
+/**
+ * Copyright (C) 2018 XenonHD
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,15 +19,25 @@ package com.xenonota.dialogs;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.res.ColorStateList;
+import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
+import android.util.TypedValue;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 
 import com.xenonota.R;
 
 public class WaitDialogFragment extends DialogFragment {
-
-    public static WaitDialogFragment newInstance() {
-        return new WaitDialogFragment();
+    private String message;
+    public static WaitDialogFragment newInstance(String message) {
+        WaitDialogFragment frag = new WaitDialogFragment();
+        frag.message = message;
+        return frag;
     }
 
     @Override
@@ -39,10 +49,7 @@ public class WaitDialogFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         setCancelable(true);
-
-        ProgressDialog dialog = new ProgressDialog(getActivity());
-        dialog.setCanceledOnTouchOutside(false);
-        dialog.setMessage(getActivity().getString(R.string.dialog_message));
+        AlertDialog dialog = ShowProgressDialog(getContext(),"", message);
         return dialog;
     }
 
@@ -73,5 +80,54 @@ public class WaitDialogFragment extends DialogFragment {
 
     public interface OTADialogListener {
         void onProgressCancelled();
+    }
+
+
+    private AlertDialog ShowProgressDialog(Context context, String title, String message)
+    {
+
+        final ProgressBar progressBar =
+                new ProgressBar(
+                        context,
+                        null,
+                        android.R.attr.progressBarStyleHorizontal);
+        progressBar.getIndeterminateDrawable().setColorFilter(getResources().getColor(R.color.colorPrimaryDark,null),android.graphics.PorterDuff.Mode.MULTIPLY);
+
+        progressBar.setLayoutParams(
+                new LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT));
+
+        progressBar.setIndeterminate(true);
+
+        final LinearLayout container =
+                new LinearLayout(context);
+
+        container.addView(progressBar);
+
+        int padding =
+                getDialogPadding(context);
+
+        container.setPadding(
+                padding, (message == null ? padding : 0), padding, 0);
+
+        AlertDialog.Builder builder =
+                new AlertDialog.Builder(context).
+                        setTitle(title).
+                        setMessage(message).
+                        setView(container);
+
+        builder.setCancelable(false);
+        return builder.create();
+    }
+
+    private int getDialogPadding(Context context)
+    {
+        int[] sizeAttr = new int[] { android.support.v7.appcompat.R.attr.dialogPreferredPadding };
+        TypedArray a = context.obtainStyledAttributes((new TypedValue()).data, sizeAttr);
+        int size = a.getDimensionPixelSize(0, -1);
+        a.recycle();
+
+        return size;
     }
 }

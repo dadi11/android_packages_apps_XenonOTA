@@ -21,12 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Tikrinami atnaujinimai, prašome palaukti…</string>
   <!-- ROM info -->
-  <string name="system_uptodate">Jūsų sistema yra naujausios versijos</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Ieškoti atnaujinimų</string>
-  <string name="last_check_summary">Paskutinį kartą tikrinta %1$s</string>
-  <string name="last_check_never">Niekada</string>
-  <string name="no_update_available">Atnaujinimų nėra</string>
+    <string name="no_update_available">Atnaujinimų nėra</string>
   <!-- Notification -->
   <string name="notification_title">XenonHD atnaujinimas</string>
   <string name="notification_message">Galima nauja versija!</string>

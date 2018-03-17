@@ -17,21 +17,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App -->
   <string name="app_name">XenonOTA</string>
-  <string name="app_title">XenonHD-Updates</string>
-  <!-- Categories -->
-  <string name="ota_category">Update-Bereich</string>
-  <string name="links_category">Download-Bereich</string>
-  <!-- Dialog -->
+    <!-- Categories -->
+    <!-- Dialog -->
   <string name="dialog_message">Suche nach Updates, bitte warten…</string>
   <!-- ROM info -->
-  <string name="latest_version">Update verfügbar!\nAktuellste Version: %1$s</string>
-  <string name="unknown">Unbekannt</string>
-  <string name="system_uptodate">Das System ist auf dem neuesten Stand</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Nach Updates suchen</string>
-  <string name="last_check_summary">Zuletzt geprüft: %1$s</string>
-  <string name="last_check_never">Niemals</string>
-  <string name="check_update_failed">Suche nach Updates nicht möglich. Kontrollieren Sie Ihre Internetverbindung und ob Ihr Gerät offiziel unterstützt wird</string>
+    <string name="check_update_failed">Suche nach Updates nicht möglich. Kontrollieren Sie Ihre Internetverbindung und ob Ihr Gerät offiziel unterstützt wird</string>
   <string name="update_available">Update verfügbar!</string>
   <string name="no_update_available">Kein Update verfügbar</string>
   <!-- Notification -->
@@ -40,8 +32,7 @@
   <string name="xenonota_channel">XenonOTA-Benachrichtigungen</string>
   <string name="xenonota_channel_description">Benachrichtigungen über neue XenonHD-Updates</string>
   <!-- Toast -->
-  <string name="toast_message">Kein Browser installiert/Installation prüfen</string>
-  <!-- Update interval -->
+    <!-- Update interval -->
   <string name="disabled">Deaktiviert</string>
   <string name="hour">Stündlich</string>
   <string name="twelve_hours">Alle 12 Stunden</string>

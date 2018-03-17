@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Controleren op updates, even geduld alstublieft…</string>
   <!-- ROM info -->
-  <string name="unknown">Onbekend</string>
-  <string name="system_uptodate">Uw systeem is up to date</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Op updates controleren</string>
-  <string name="last_check_summary">Laatst gecontroleerd: %1$s</string>
-  <string name="last_check_never">Nooit</string>
-  <string name="no_update_available">No update available</string>
+    <string name="no_update_available">No update available</string>
   <!-- Notification -->
   <string name="notification_title">XenonHD Update</string>
   <string name="notification_message">Er is een nieuwe versie beschikbaar!</string>

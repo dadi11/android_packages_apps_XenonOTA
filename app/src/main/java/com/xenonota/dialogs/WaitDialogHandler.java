@@ -1,5 +1,5 @@
-/*
- * Copyright (C) 2017 Team Horizon
+/**
+ * Copyright (C) 2018 XenonHD
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,6 +32,8 @@ public class WaitDialogHandler extends Handler {
 
     private Context mContext;
 
+
+
     @Override
     public void handleMessage(Message msg) {
         switch (msg.what) {
@@ -47,7 +49,7 @@ public class WaitDialogHandler extends Handler {
                     }
                     ft.addToBackStack(null);
 
-                    WaitDialogFragment dialog = WaitDialogFragment.newInstance();
+                    WaitDialogFragment dialog = WaitDialogFragment.newInstance(mContext.getString(msg.arg1));
                     dialog.show(ft, DIALOG_TAG);
                 }
                 break;

@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Vérification des mises à jour, veuillez patienter…</string>
   <!-- ROM info -->
-  <string name="unknown">Inconnue</string>
-  <string name="system_uptodate">Votre système est à jour</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Vérification des mises à jour</string>
-  <string name="last_check_summary">Dernière vérification : %1$s</string>
-  <string name="last_check_never">Jamais</string>
-  <string name="no_update_available">Aucune mise à jour n’est actuellement disponible</string>
+    <string name="no_update_available">Aucune mise à jour n’est actuellement disponible</string>
   <!-- Notification -->
   <string name="notification_title">Mises à jour XenonHD</string>
   <string name="notification_message">Une nouvelle version est disponible!</string>

@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Söker efter uppdateringar, vänligen vänta…</string>
   <!-- ROM info -->
-  <string name="unknown">Okänd</string>
-  <string name="system_uptodate">Ditt system är uppdaterat</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Sök efter uppdateringar</string>
-  <string name="last_check_summary">Senast kontrollerad: %1$s</string>
-  <string name="last_check_never">Aldrig</string>
-  <string name="no_update_available">Ingen uppdatering tillgänglig</string>
+    <string name="no_update_available">Ingen uppdatering tillgänglig</string>
   <!-- Notification -->
   <string name="notification_title">XenonHD-uppdatering</string>
   <string name="notification_message">En ny version är tillgänglig!</string>

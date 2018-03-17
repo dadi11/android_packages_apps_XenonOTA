@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">更新を確認しています。 しばらくお待ち下さい...</string>
   <!-- ROM info -->
-  <string name="unknown">不明</string>
-  <string name="system_uptodate">システムは最新の状態です</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">更新の確認</string>
-  <string name="last_check_summary">前回の更新確認：%1$s</string>
-  <string name="last_check_never">指定なし</string>
-  <string name="no_update_available">利用可能な更新はありません</string>
+    <string name="no_update_available">利用可能な更新はありません</string>
   <!-- Notification -->
   <string name="notification_title">XenonHD 更新</string>
   <string name="notification_message">新しいバージョンが利用可能です！</string>

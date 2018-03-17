@@ -21,13 +21,9 @@
   <!-- Dialog -->
   <string name="dialog_message">Frissítések keresése, kis türelmet…</string>
   <!-- ROM info -->
-  <string name="unknown">Ismeretlen</string>
-  <string name="system_uptodate">A rendszer naprakész</string>
-  <!-- Check update -->
+    <!-- Check update -->
   <string name="check_update_title">Frissítések keresése</string>
-  <string name="last_check_summary">Utolsó ellenőrzés: %1$s</string>
-  <string name="last_check_never">Soha</string>
-  <string name="no_update_available">Nincs elérhető frissítés</string>
+    <string name="no_update_available">Nincs elérhető frissítés</string>
   <!-- Notification -->
   <string name="notification_title">XenonHD frissítés</string>
   <string name="notification_message">Új verzió érhető el!</string>

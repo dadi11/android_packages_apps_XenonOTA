@@ -19,7 +19,4 @@
         android:id="@+id/choose_gapps_zip"
         android:title="@string/choose_gapps_zip"
         />
-    <item android:id="@+id/clear_downloads_gapps"
-        android:title="@string/clear_downloads"
-        />
 </menu>
