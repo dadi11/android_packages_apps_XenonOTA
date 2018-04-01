@@ -13,7 +13,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@*android:color/accent_device_default_light"/>
-    <foreground android:drawable="@mipmap/ic_xenonota_launcher_foreground"/>
-</adaptive-icon>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_rom"
+        android:icon="@drawable/ic_nav_android"
+        android:title="@string/title_rom" />
+
+    <item
+        android:id="@+id/navigation_gapps"
+        android:icon="@drawable/ic_nav_gapps"
+        android:title="@string/title_gapps" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_nav_settings"
+        android:title="@string/title_settings" />
+
+</menu>

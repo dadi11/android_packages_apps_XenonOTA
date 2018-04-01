@@ -13,7 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@*android:color/accent_device_default_light"/>
-    <foreground android:drawable="@mipmap/ic_xenonota_launcher_foreground"/>
-</adaptive-icon>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/choose_gapps_zip"
+        android:title="@string/choose_gapps_zip"
+        />
+    <item android:id="@+id/clear_downloads_gapps"
+        android:title="@string/clear_downloads"
+        />
+</menu>
